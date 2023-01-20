@@ -1,0 +1,14 @@
+/* Styles in addition to bootstrap */
+
+.callout-container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    background: #a00000;
+    padding: 0;
+}
+
+

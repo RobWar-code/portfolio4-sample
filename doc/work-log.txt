@@ -1,0 +1,8 @@
+Work Due
+
+    Add whiskey pic to call-out background
+
+Work Done
+    20/01/23
+        * Complete page make-up with bootstrap and html only 
+    

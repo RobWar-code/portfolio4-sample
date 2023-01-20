@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
     <title>Whiskey Drop | Taste a New Whiskey Every Month</title>
 
     <script src="https://kit.fontawesome.com/8b758f6b51.js" crossorigin="anonymous"></script>
@@ -45,23 +48,27 @@
             <a href="/login">Sign-in/Sign-up</a>
         </div>
     </nav>
-    <article class="container">
+    <div class="container-fluid container-alert">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning">
-                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
+                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! 
+                    <a href="">See here for more details</a>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container-fluid callout-container">
         <!-- callout -->
         <div class="row">
             <div class="col-12">
-                <section class="callout jumbotron mt-3 text-center">
+                <section class="jumbotron text-center callout">
                     <h1>The Finest Whiskeys Delivered to your Doorstep</h1>
                     <p class="lead">Sign-up today to start receiving the world's best whiskeys every month. 
                         <s class="d-none d-sm-inline">$19.99</s> 
                         <span class="d-inline d-sm-none"><br></span>
-                        <strong><mark>First one is free!</mark></strong></p>
+                        <strong><mark>First one is free!</mark></strong>
+                    </p>
                     <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign-up!</button>
                     <p class="text-muted"><small>You must be aged over 18 to sign up to our service. Please, drink responsibly.</small></p>
                 </section>
@@ -69,7 +76,9 @@
         </div>
         <!-- /.callout -->
         <hr>
+    </div>
 
+    <div class="container">
         <!-- quotes-->
         <section class="quotes my-5">
             <div class="row">
@@ -108,7 +117,10 @@
         </section>
         <!-- /.quotes-->
         <hr>
+    </div>
 
+    
+    <div class="container">
         <!-- features -->
         <section class="features my-5">
             <div class="row">
@@ -156,6 +168,7 @@
             </div>
         </section>
         <!-- /.features -->
+    </div>
 
         <div class="row my-5">
             <div class="col-12">
