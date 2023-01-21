@@ -5,3 +5,9 @@
     background: #a00000;
 }
 
+.callout-container row {
+    height: 80vh;
+    align-items: center;
+}
+
+
