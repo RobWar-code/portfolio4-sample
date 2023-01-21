@@ -3,20 +3,5 @@
 .callout-container {
     height: 80vh;
     background: #a00000;
-    padding: 0;
-    margin: 0;
+}
 
-}
-.callout-container row {
-    height: 100%;
-}
-.callout-container first-col {
-    display: inline-block;
-    height: 100%;
-    vertical-align: center;
-}
-.callout-container second-col {
-    display: inline-block;
-    height: 50vh;
-    vertical-align: center;
-}
