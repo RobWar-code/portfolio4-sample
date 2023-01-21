@@ -6,21 +6,17 @@
     padding: 0;
     margin: 0;
 
-    display: flex;
-    align-items: center;
-    
-    position: relative;
-
 }
-
-.callout-container col-12 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+.callout-container row {
+    height: 100%;
 }
-
-.callout {
-    margin: 0;
+.callout-container first-col {
+    display: inline-block;
+    height: 100%;
+    vertical-align: center;
+}
+.callout-container second-col {
+    display: inline-block;
+    height: 50vh;
+    vertical-align: center;
 }
