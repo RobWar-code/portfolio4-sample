@@ -2,12 +2,15 @@
 
 .callout-container {
     height: 80vh;
-    background: #a00000;
+    background: url("../images/whisky-stillery.jpg") left top no-repeat;
+    background-size: cover;
 }
 
-.callout-container row {
+.callout-container .row {
     height: 80vh;
     align-items: center;
 }
 
-
+.callout-container .second-col {
+    background: rgba(255,255,255,0.9);
+}
